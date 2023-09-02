@@ -1,0 +1,8 @@
+.splineBackground {
+  position: fixed;  /* Fixed position */
+  top: 0;
+  left: 0;
+  height: 100vh;  /* Cover the screen vertically */
+  width: 100vw;  /* Cover the screen horizontally */
+  z-index: -1;  /* Place it behind the content */
+}

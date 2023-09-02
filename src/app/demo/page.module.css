@@ -1,0 +1,23 @@
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Viewport Height */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.fullScreenImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Optional, to make sure it stays as background */
+}
+
+.fullScreenImage img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
