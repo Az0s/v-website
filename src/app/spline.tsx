@@ -1,7 +1,7 @@
 // lib/mui.js
 
 "use client";
-import "./Spline.css";
+import "./spline.css";
 // export {default as Spline} from "@splinetool/react-spline";
 import Spline from "@splinetool/react-spline";
 
